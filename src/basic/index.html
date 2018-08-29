@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Coder School Testing Workshop With Jest and Enzyme</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+    <!-- Sample unit test here -->
+    <script>
+        function sum(a, b) {
+            return a + b;
+        }
+        const output = sum('2', '3');
+        if(sum !== 5) {
+            throw new Error(`Expected value to be 5, instead got ${output}`);
+        }
+    </script>
+</body>
+</html>
